@@ -102,6 +102,11 @@ export default function LoginPage() {
                   aria-invalid={actionData?.errors?.email ? true : undefined}
                   aria-describedby="email-error"
                 />
+                {actionData?.errors?.email && (
+                  <div className="pt-1 text-red-700" id="email-error">
+                    {actionData.errors.email}
+                  </div>
+                )}
               </div>
               <div className="form-control">
                 <label className="label">
@@ -118,6 +123,11 @@ export default function LoginPage() {
                   aria-invalid={actionData?.errors?.password ? true : undefined}
                   aria-describedby="password-error"
                 />
+                {actionData?.errors?.password && (
+                  <div className="pt-1 text-red-700" id="password-error">
+                    {actionData.errors.password}
+                  </div>
+                )}
               </div>
               <div className="flex items-center">
                   <input
