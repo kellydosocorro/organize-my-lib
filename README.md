@@ -1,4 +1,12 @@
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/29261956/197896467-b3b875e7-0537-4b6c-88aa-63df2846f253.png" alt="drawing" style="width:100px;"/>
+
 # Organize My Lib
+
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)	![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+
+</div>
 
 This project aims to create an application where the user can search, add, like, favorite and comment on books.
 
