@@ -99,6 +99,7 @@ export default function Join() {
                   ref={emailRef}
                   id="email"
                   required
+                  data-cy="email-input"
                   autoFocus={true}
                   name="email"
                   type="email"
@@ -122,6 +123,7 @@ export default function Join() {
                   ref={passwordRef}
                   name="password"
                   type="password"
+                  data-cy="password-input"
                   autoComplete="new-password"
                   aria-invalid={actionData?.errors?.password ? true : undefined}
                   aria-describedby="password-error"
@@ -135,7 +137,7 @@ export default function Join() {
               </div>
               <div className="form-control mt-6">
                 <input type="hidden" name="redirectTo" value={redirectTo} />
-                <button className="btn btn-primary" type="submit">Create Account</button>
+                <button className="btn btn-primary" type="submit" data-cy="join-submit">Create Account</button>
               </div>
               <div className="flex items-center justify-center">
                 <div className="text-center text-sm text-gray-500">

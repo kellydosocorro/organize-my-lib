@@ -150,6 +150,7 @@ export default function LoginPage() {
                 Don't have an account?{" "}
                 <Link
                   className="text-blue-500 underline"
+                  data-cy="join-button"
                   to={{
                     pathname: "/join",
                     search: searchParams.toString(),
